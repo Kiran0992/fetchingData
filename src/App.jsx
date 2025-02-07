@@ -30,7 +30,7 @@ const DataFetchingComponent = () => {
 
   return (
     <div className="data-container">
-      <h2>Fetched Data</h2>
+      <h2>Fetched Data from an Api</h2>
       <ul>
         {data.slice(0, 10).map((item) => (
           <li key={item.id}>{item.title}</li>
